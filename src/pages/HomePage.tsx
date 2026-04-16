@@ -44,7 +44,7 @@ export function HomePage() {
           <div className="absolute -right-10 -top-10 h-64 w-64 rounded-full bg-[#6ff7ee]/20 blur-3xl" aria-hidden="true" />
           <div className="relative aspect-[4/5] overflow-hidden rounded-2xl shadow-2xl shadow-black/10 rotate-2 transition-transform duration-700 hover:rotate-0">
             <img
-              alt="Gourmet seafood platter with fresh oysters, chilled shrimp, and lemon wedges on a bed of ice"
+              alt="Gurmánský talíř s čerstvými ústřicemi, chlazenými krevetami a citronem na ledu"
               src="https://lh3.googleusercontent.com/aida-public/AB6AXuAlvasXY8sKgg9sAoHHYeB1ffwEuhw8bWoIGMweCweQtL887dRTJ1w8libB8lgjG9gpk6tjzQMNV8kCHtUm9H_yvn3fwQ1yBo-Ne-JsqILsZk4BCVBNj9vvYxFTia8UkpExifz4iJxy_IGkct12_k3jGVcnSwOK2t9Fa90GmCU71XgB2Lz3L5LU5bFVZgSKq71JayLT7z3tqIM6mCtiz8u1Sx0zsWRZhutZarC_befg-y4trpYiwV0PSaZWAXqfQBtiDXk-lsFazMc"
               className="h-full w-full object-cover"
               loading="eager"
@@ -53,9 +53,9 @@ export function HomePage() {
           <div className="absolute -bottom-8 -left-8 hidden max-w-[200px] rounded-2xl border border-white/40 bg-white p-6 shadow-xl shadow-black/10 md:block">
             <div className="mb-2 flex items-center gap-2">
               <span className="material-symbols-outlined fill-1 text-[#a43c12]">stars</span>
-              <span className="text-xs font-bold text-[#161d1c]">Daily Freshness</span>
+              <span className="text-xs font-bold text-[#161d1c]">Denní čerstvost</span>
             </div>
-            <p className="text-[10px] uppercase tracking-[0.24em] text-[#3c4948]">Verified Sustainable</p>
+            <p className="text-[10px] uppercase tracking-[0.24em] text-[#3c4948]">Ověřeně udržitelné</p>
           </div>
         </div>
       </section>
@@ -68,7 +68,7 @@ export function HomePage() {
               <p className="max-w-md text-[#3c4948]">Ručně vybrané našimi odborníky každé ráno. Omezené množství k dispozici.</p>
             </div>
 
-            <div className="flex gap-2" role="tablist" aria-label="Product category filter">
+            <div className="flex gap-2" role="tablist" aria-label="Filtr kategorie produktů">
               <FilterButton active={filter === 'all'} onClick={() => setFilter('all')}>
                 Vše
               </FilterButton>
