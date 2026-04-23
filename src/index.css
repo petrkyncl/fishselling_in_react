@@ -2,6 +2,10 @@
 @custom-variant dark (&:is(.dark *));
 
 @layer base {
+  html {
+    @apply bg-[#f4fbf9] dark:bg-gray-950;
+  }
+  
   button, 
   [role="button"] {
     @apply cursor-pointer;

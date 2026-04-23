@@ -49,7 +49,6 @@ export function HomePage() {
         </div>
 
         <div className="relative w-full md:w-1/2" data-aos="fade-left" data-aos-delay="200">
-          <div className="absolute -right-10 -top-10 h-64 w-64 rounded-full bg-[#6ff7ee]/20 blur-3xl" aria-hidden="true" />
           <div className="relative aspect-[4/5] overflow-hidden rounded-2xl shadow-2xl shadow-black/10 rotate-2 transition-transform duration-700 hover:rotate-0">
             <img
               alt="Gurmánský talíř s čerstvými ústřicemi, chlazenými krevetami a citronem na ledu"

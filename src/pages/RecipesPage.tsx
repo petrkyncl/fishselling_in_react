@@ -40,15 +40,15 @@ export function RecipesPage() {
           </article>
         ))}
 
-        <article className="overflow-hidden rounded-3xl border border-black/5 dark:border-gray-700 bg-white dark:bg-gray-800 shadow-sm transition-colors" data-aos="fade-up" data-aos-delay={recipes.length * 100}>
-          <div className="relative flex aspect-[16/10] items-center justify-center bg-[#dde4e2] dark:bg-gray-700 transition-colors">
-            <span className="material-symbols-outlined text-6xl text-[#bbc9c7] dark:text-gray-500 transition-colors">set_meal</span>
+        <article className="overflow-hidden rounded-3xl border border-black/5 dark:border-gray-700 bg-white dark:bg-gray-800 shadow-sm transition-all duration-500 hover:-translate-y-2 hover:shadow-xl dark:hover:shadow-[#6ff7ee]/5" data-aos="fade-up" data-aos-delay={recipes.length * 100}>
+          <div className="relative flex aspect-[16/10] items-center justify-center bg-[#dde4e2] dark:bg-gray-700 transition-colors duration-300">
+            <span className="material-symbols-outlined text-6xl text-[#bbc9c7] dark:text-gray-500 transition-colors duration-300">set_meal</span>
           </div>
           <div className="p-6">
-            <div className="mb-4 h-4 w-16 rounded-full bg-[#dde4e2] dark:bg-gray-700 transition-colors" />
-            <div className="mb-3 h-6 w-3/4 rounded-full bg-[#dde4e2] dark:bg-gray-700 transition-colors" />
-            <div className="mb-6 h-20 w-full rounded-2xl bg-[#dde4e2] dark:bg-gray-700 transition-colors" />
-            <div className="h-4 w-24 rounded-full bg-[#dde4e2] dark:bg-gray-700 transition-colors" />
+            <div className="mb-4 h-4 w-16 rounded-full bg-[#dde4e2] dark:bg-gray-700 transition-colors duration-300" />
+            <div className="mb-3 h-6 w-3/4 rounded-full bg-[#dde4e2] dark:bg-gray-700 transition-colors duration-300" />
+            <div className="mb-6 h-20 w-full rounded-2xl bg-[#dde4e2] dark:bg-gray-700 transition-colors duration-300" />
+            <div className="h-4 w-24 rounded-full bg-[#dde4e2] dark:bg-gray-700 transition-colors duration-300" />
           </div>
         </article>
       </div>
