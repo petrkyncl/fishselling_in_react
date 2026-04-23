@@ -21,7 +21,7 @@ export function HomePage() {
 
   return (
     <>
-      <section className="mx-auto flex max-w-7xl flex-col gap-16 overflow-hidden px-6 pb-24 pt-12 md:flex-row md:items-center md:px-8 md:py-32">
+      <section className="mx-auto flex max-w-7xl flex-col gap-16 overflow-x-clip px-6 pb-24 pt-12 md:flex-row md:items-center md:px-8 md:py-32">
         <div className="w-full md:w-1/2" data-aos="fade-right">
           <span className="mb-6 inline-flex rounded-full bg-[#6ff7ee] dark:bg-[#006a65] px-4 py-1.5 text-xs font-bold uppercase tracking-[0.24em] text-[#00201e] dark:text-[#6ff7ee]">
             Přímo z moře
