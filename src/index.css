@@ -24,7 +24,9 @@
 
 /* Custom Scrollbar - Overlay Style */
 html {
-  overflow-y: overlay; /* Webkit overlay scrollbar */
+  overflow-y: auto; 
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-thumb) transparent;
 }
 
 ::-webkit-scrollbar {
